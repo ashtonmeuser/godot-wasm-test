@@ -1,0 +1,10 @@
+.DS_Store
+*.o
+*.wasm
+AssemblyScript/node_modules/
+AssemblyScript/build/
+Grain/target
+Rust/target
+Zig/zig-cache
+Runner/target
+!Runner/*.wasm

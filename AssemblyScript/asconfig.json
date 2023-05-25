@@ -1,0 +1,11 @@
+{
+  "extends": "./node_modules/@assemblyscript/wasi-shim/asconfig.json",
+  "options": {
+    "exportStart": "_initialize"
+  },
+  "targets": {
+    "release": {
+      "optimize": "speed"
+    }
+  }
+}
