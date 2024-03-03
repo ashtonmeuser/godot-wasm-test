@@ -1,5 +1,7 @@
-declare function test_import(i: i32): void
+declare function import_int(i: i64): void
+declare function import_float(i: f64): void
 
 export function callback(): void {
-  test_import(123);
+  import_int(-123);
+  import_float(-12.34);
 }
